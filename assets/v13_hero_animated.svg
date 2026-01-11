@@ -43,6 +43,5 @@
     <!-- Typography -->
     <text x="310" y="110" font-size="100" class="text">V13</text>
 
-    <!-- Subtitle (Optional, but adds detail to the wider format) -->
-    <text x="520" y="100" font-size="14" class="sub">AUDIO_REACTIVE</text>
+
 </svg>
