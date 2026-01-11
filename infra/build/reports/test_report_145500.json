@@ -1,0 +1,20 @@
+{
+    "summary": "Partial Execution",
+    "detailed": [
+        {
+            "module": "backend",
+            "status": "PASSED",
+            "logs": "Success"
+        },
+        {
+            "module": "middleware",
+            "status": "FAILED",
+            "logs": ""
+        },
+        {
+            "module": "frontend",
+            "status": "FAILED",
+            "logs": "npm error Missing script: \"test:ci\"\nnpm error\nnpm error To see a list of scripts, run:\nnpm error   npm run\nnpm error A complete log of this run can be found in: C:\\Users\\chrom\\AppData\\Local\\npm-cache\\_logs\\2026-01-09T21_55_00_557Z-debug-0.log\n"
+        }
+    ]
+}

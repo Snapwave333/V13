@@ -1,0 +1,20 @@
+{
+    "summary": "Partial Execution",
+    "detailed": [
+        {
+            "module": "backend",
+            "status": "PASSED",
+            "logs": "Success"
+        },
+        {
+            "module": "middleware",
+            "status": "FAILED",
+            "logs": "[WinError 2] The system cannot find the file specified"
+        },
+        {
+            "module": "frontend",
+            "status": "FAILED",
+            "logs": "[WinError 2] The system cannot find the file specified"
+        }
+    ]
+}

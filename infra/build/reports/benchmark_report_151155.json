@@ -1,0 +1,12 @@
+{
+    "latency_metrics": {
+        "gateway_3000": "Online"
+    },
+    "throughput_estimation": "N/A",
+    "timestamp": 1767996708.1850908,
+    "visual_metrics": {
+        "fps": 120,
+        "resolution": "1920x1080",
+        "last_sync": "2026-01-09T22:11:31.788Z"
+    }
+}

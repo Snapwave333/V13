@@ -1,0 +1,9 @@
+{
+    "latency_metrics": {
+        "prism-frontend": "2.07MiB / 7.572GiB",
+        "prism-ai": "995.1MiB / 7.572GiB",
+        "gateway_3000": "Online"
+    },
+    "throughput_estimation": "N/A",
+    "timestamp": 1767995617.0287113
+}

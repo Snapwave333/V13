@@ -1,0 +1,33 @@
+# Windows
+nul
+con
+prn
+aux
+com1
+lpt1
+Desktop.ini
+$RECYCLE.BIN/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build Output
+dist/
+build/
+out/
+coverage/
+.angular/
+
+# Rust
+target/
+**/*.rs.bk
+
+# Env
+.env
+
+# Misc
+.DS_Store
+*.log

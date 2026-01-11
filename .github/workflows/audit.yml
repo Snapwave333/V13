@@ -1,0 +1,53 @@
+name: Codebase Audit & CI
+
+on:
+    push:
+        branches: [main, develop]
+    pull_request:
+        branches: [main, develop]
+
+jobs:
+    backend-audit:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Install Rust
+              uses: dtolnay/rust-toolchain@stable
+              with:
+                  components: clippy, rustfmt
+            - name: Backend Format Check
+              run: cd apps/backend && cargo fmt --check
+            - name: Backend Lint
+              run: cd apps/backend && cargo clippy -- -D warnings
+            - name: Backend Test
+              run: cd apps/backend && cargo test
+
+    middleware-audit:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+            - name: Install Dependencies
+              run: cd apps/middleware && npm install
+            - name: Middleware Lint
+              run: cd apps/middleware && npx eslint src
+            - name: Middleware Test
+              run: cd apps/middleware && npm test
+
+    frontend-audit:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+            - name: Install Dependencies
+              run: cd apps/frontend && npm install
+            - name: Frontend Lint
+              run: cd apps/frontend && npx ng lint
+            - name: Frontend Test
+              run: cd apps/frontend && npm test

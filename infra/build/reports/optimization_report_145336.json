@@ -1,0 +1,9 @@
+{
+    "cleanup_results": {
+        "docker_prune": "Success"
+    },
+    "memory_snapshot": {
+        "prism-frontend": "0B / 0B",
+        "prism-ai": "995.1MiB / 7.572GiB"
+    }
+}

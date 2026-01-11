@@ -1,0 +1,465 @@
+[
+  {
+    "name": "qwen3-coder:480b-cloud",
+    "size_bytes": 382,
+    "size_gb": 3.557652235031128e-07,
+    "details": {
+      "parent_model": "",
+      "format": "",
+      "family": "qwen3moe",
+      "families": [
+        "qwen3moe"
+      ],
+      "parameter_size": "480B",
+      "quantization_level": "BF16"
+    },
+    "metrics": {
+      "success": true,
+      "tps": 0,
+      "eval_count": 38,
+      "eval_duration_s": 0.0,
+      "total_duration_s": 1.283085548,
+      "load_duration_s": 0.0
+    }
+  },
+  {
+    "name": "llama3.3:latest",
+    "size_bytes": 42520413916,
+    "size_gb": 39.60022136196494,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "70.6B",
+      "quantization_level": "Q4_K_M",
+      "parameters_len": 147
+    },
+    "metrics": {
+      "success": false,
+      "error": "Skipped > 20GB"
+    }
+  },
+  {
+    "name": "deepseek-r1:7b",
+    "size_bytes": 4683075440,
+    "size_gb": 4.361453875899315,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "7.6B",
+      "quantization_level": "Q4_K_M",
+      "parameters_len": 196
+    },
+    "metrics": {
+      "success": true,
+      "tps": 10.87886783187319,
+      "eval_count": 100,
+      "eval_duration_s": 9.192133,
+      "total_duration_s": 24.4846023,
+      "load_duration_s": 14.3876347
+    }
+  },
+  {
+    "name": "qwen2.5:latest",
+    "size_bytes": 4683087332,
+    "size_gb": 4.361464951187372,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "7.6B",
+      "quantization_level": "Q4_K_M"
+    },
+    "metrics": {
+      "success": true,
+      "tps": 54.07374123307666,
+      "eval_count": 31,
+      "eval_duration_s": 0.5732912,
+      "total_duration_s": 8.7182219,
+      "load_duration_s": 8.0777862
+    }
+  },
+  {
+    "name": "qwen2.5:7b",
+    "size_bytes": 4683087332,
+    "size_gb": 4.361464951187372,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "7.6B",
+      "quantization_level": "Q4_K_M"
+    },
+    "metrics": {
+      "success": true,
+      "tps": 53.723701101768285,
+      "eval_count": 41,
+      "eval_duration_s": 0.7631641,
+      "total_duration_s": 0.9863203,
+      "load_duration_s": 0.1691369
+    }
+  },
+  {
+    "name": "qwen2.5:14b",
+    "size_bytes": 8988124069,
+    "size_gb": 8.37084284890443,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "14.8B",
+      "quantization_level": "Q4_K_M"
+    },
+    "metrics": {
+      "success": false,
+      "error": "Unknown Code"
+    }
+  },
+  {
+    "name": "qwen2.5:32b",
+    "size_bytes": 19851349669,
+    "size_gb": 18.488010083325207,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "32.8B",
+      "quantization_level": "Q4_K_M"
+    },
+    "metrics": {
+      "success": false,
+      "error": "Unknown Code"
+    }
+  },
+  {
+    "name": "mistral-nemo:latest",
+    "size_bytes": 7071713227,
+    "size_gb": 6.586046169511974,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "12.2B",
+      "quantization_level": "Q4_0",
+      "parameters_len": 80
+    },
+    "metrics": {
+      "success": false,
+      "error": "Unknown Code"
+    }
+  },
+  {
+    "name": "gemma2:latest",
+    "size_bytes": 5443152417,
+    "size_gb": 5.069330723024905,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "gemma2",
+      "families": [
+        "gemma2"
+      ],
+      "parameter_size": "9.2B",
+      "quantization_level": "Q4_0",
+      "parameters_len": 95
+    },
+    "metrics": {
+      "success": true,
+      "tps": 26.635944999321364,
+      "eval_count": 23,
+      "eval_duration_s": 0.8634948,
+      "total_duration_s": 23.8314581,
+      "load_duration_s": 9.7355803
+    }
+  },
+  {
+    "name": "llama3.1:latest",
+    "size_bytes": 4920753328,
+    "size_gb": 4.582808658480644,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_K_M",
+      "parameters_len": 147
+    },
+    "metrics": {
+      "success": false,
+      "error": "Unknown Code"
+    }
+  },
+  {
+    "name": "dolphin-llama3:latest",
+    "size_bytes": 4661235994,
+    "size_gb": 4.341114306822419,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8B",
+      "quantization_level": "Q4_0",
+      "parameters_len": 89
+    },
+    "metrics": {
+      "success": true,
+      "tps": 54.751819129190565,
+      "eval_count": 30,
+      "eval_duration_s": 0.547927,
+      "total_duration_s": 6.6452675,
+      "load_duration_s": 6.0428967
+    }
+  },
+  {
+    "name": "phi3.5:latest",
+    "size_bytes": 2176178843,
+    "size_gb": 2.026724482886493,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "phi3",
+      "families": [
+        "phi3"
+      ],
+      "parameter_size": "3.8B",
+      "quantization_level": "Q4_0",
+      "parameters_len": 173
+    },
+    "metrics": {
+      "success": false,
+      "error": "Unknown Code"
+    }
+  },
+  {
+    "name": "qwen2.5-coder:32b",
+    "size_bytes": 19851349898,
+    "size_gb": 18.488010296598077,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "32.8B",
+      "quantization_level": "Q4_K_M"
+    },
+    "metrics": {
+      "success": false,
+      "error": "Unknown Code"
+    }
+  },
+  {
+    "name": "qwq:32b",
+    "size_bytes": 19851349657,
+    "size_gb": 18.488010072149336,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "32.8B",
+      "quantization_level": "Q4_K_M",
+      "parameters_len": 227
+    },
+    "metrics": {
+      "success": false,
+      "error": "Unknown Code"
+    }
+  },
+  {
+    "name": "codellama:latest",
+    "size_bytes": 3825910662,
+    "size_gb": 3.56315696798265,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": null,
+      "parameter_size": "7B",
+      "quantization_level": "Q4_0",
+      "parameters_len": 200
+    },
+    "metrics": {
+      "success": true,
+      "tps": 31.351800533904665,
+      "eval_count": 38,
+      "eval_duration_s": 1.2120516,
+      "total_duration_s": 89.013505,
+      "load_duration_s": 85.813476
+    }
+  },
+  {
+    "name": "qwen2.5-coder:7b",
+    "size_bytes": 4683087561,
+    "size_gb": 4.361465164460242,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "7.6B",
+      "quantization_level": "Q4_K_M"
+    },
+    "metrics": {
+      "success": true,
+      "tps": 51.37165163855591,
+      "eval_count": 45,
+      "eval_duration_s": 0.8759695,
+      "total_duration_s": 15.3814613,
+      "load_duration_s": 14.4366728
+    }
+  },
+  {
+    "name": "llava:latest",
+    "size_bytes": 4733363377,
+    "size_gb": 4.408288166858256,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama",
+        "clip"
+      ],
+      "parameter_size": "7B",
+      "quantization_level": "Q4_0",
+      "parameters_len": 80
+    },
+    "metrics": {
+      "success": true,
+      "tps": 39.73453134694663,
+      "eval_count": 53,
+      "eval_duration_s": 1.3338524,
+      "total_duration_s": 10.8311191,
+      "load_duration_s": 9.3917516
+    }
+  },
+  {
+    "name": "llama3:latest",
+    "size_bytes": 4661224676,
+    "size_gb": 4.34110376611352,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_0",
+      "parameters_len": 181
+    },
+    "metrics": {
+      "success": true,
+      "tps": 51.936891137333085,
+      "eval_count": 60,
+      "eval_duration_s": 1.1552482,
+      "total_duration_s": 13.090444,
+      "load_duration_s": 11.7897154
+    }
+  },
+  {
+    "name": "qwen2.5:1.5b",
+    "size_bytes": 986061892,
+    "size_gb": 0.9183416999876499,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "1.5B",
+      "quantization_level": "Q4_K_M"
+    },
+    "metrics": {
+      "success": true,
+      "tps": 178.50618880956603,
+      "eval_count": 30,
+      "eval_duration_s": 0.1680614,
+      "total_duration_s": 4.339844,
+      "load_duration_s": 4.0630835
+    }
+  },
+  {
+    "name": "gemma3:1b",
+    "size_bytes": 815319791,
+    "size_gb": 0.7593257268890738,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "gemma3",
+      "families": [
+        "gemma3"
+      ],
+      "parameter_size": "999.89M",
+      "quantization_level": "Q4_K_M",
+      "parameters_len": 149
+    },
+    "metrics": {
+      "success": true,
+      "tps": 199.31125504428758,
+      "eval_count": 32,
+      "eval_duration_s": 0.1605529,
+      "total_duration_s": 23.2153404,
+      "load_duration_s": 23.0103814
+    }
+  },
+  {
+    "name": "tinyllama:1.1b",
+    "size_bytes": 637700138,
+    "size_gb": 0.593904534354806,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "1B",
+      "quantization_level": "Q4_0",
+      "parameters_len": 170
+    },
+    "metrics": {
+      "success": true,
+      "tps": 301.9859057757514,
+      "eval_count": 39,
+      "eval_duration_s": 0.1291451,
+      "total_duration_s": 5.3017043,
+      "load_duration_s": 5.1427129
+    }
+  }
+]

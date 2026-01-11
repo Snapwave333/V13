@@ -1,0 +1,20 @@
+{
+    "summary": "Partial Execution",
+    "detailed": [
+        {
+            "module": "backend",
+            "status": "PASSED",
+            "logs": "Success"
+        },
+        {
+            "module": "middleware",
+            "status": "FAILED",
+            "logs": "'jest' is not recognized as an internal or external command,\noperable program or batch file.\n"
+        },
+        {
+            "module": "frontend",
+            "status": "FAILED",
+            "logs": "- Generating browser application bundles (phase: setup)...\n\u00e2\u02c6\u0161 Browser application bundle generation complete.\n\u00e2\u02c6\u0161 Browser application bundle generation complete.\n\u00e2\u02c6\u0161 Browser application bundle generation complete.\n"
+        }
+    ]
+}

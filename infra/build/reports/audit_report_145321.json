@@ -1,0 +1,15 @@
+{
+    "containers": {
+        "prism-frontend": "Restarting (1) 42 seconds ago",
+        "prism-ai": "Up About an hour (unhealthy)"
+    },
+    "env_validation": {
+        "exists": true
+    },
+    "disk_space": {
+        "total_gb": 926,
+        "used_gb": 855,
+        "free_gb": 70
+    },
+    "port_conflicts": []
+}

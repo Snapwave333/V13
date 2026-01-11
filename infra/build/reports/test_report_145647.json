@@ -1,0 +1,20 @@
+{
+    "summary": "Partial Execution",
+    "detailed": [
+        {
+            "module": "backend",
+            "status": "PASSED",
+            "logs": "Success"
+        },
+        {
+            "module": "middleware",
+            "status": "FAILED",
+            "logs": "npm warn exec The following package was not found and will be installed: jest@30.2.0\nnpm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.\nnpm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported\nError: Cannot find module 'ts-jest'\nRequire stack:\n- C:\\Users\\chrom\\OneDrive\\Desktop\\VIBES\\v13\\apps\\middleware\\jest.config.js\n- C:\\Users\\chrom\\AppData\\Local\\npm-cache\\_npx\\b8d86e6551a4f492\\node_modules\\jest-util\\build\\index.js\n- C:\\Users\\chrom\\AppData\\Local\\npm-cache\\_npx\\b8d86e6551a4f492\\node_modules\\@jest\\core\\build\\index.js\n- C:\\Users\\chrom\\AppData\\Local\\npm-cache\\_npx\\b8d86e6551a4f492\\node_modules\\jest-cli\\build\\index.js\n- C:\\Users\\chrom\\AppData\\Local\\npm-cache\\_npx\\b8d86e6551a4f492\\node_modules\\jest-cli\\bin\\jest.js\n- C:\\Users\\chrom\\AppData\\Local\\npm-cache\\_npx\\b8d86e6551a4f492\\node_modules\\jest\\bin\\jest.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)\n    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)\n    at Module._load (node:internal/modules/cjs/loader:1227:37)\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)\n    at Module.require (node:internal/modules/cjs/loader:1504:12)\n    at require (node:internal/modules/helpers:152:16)\n    at Object.<anonymous> (C:\\Users\\chrom\\OneDrive\\Desktop\\VIBES\\v13\\apps\\middleware\\jest.config.js:1:33)\n    at Module._compile (node:internal/modules/cjs/loader:1761:14)\n"
+        },
+        {
+            "module": "frontend",
+            "status": "PASSED",
+            "logs": "Success"
+        }
+    ]
+}

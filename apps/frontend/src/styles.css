@@ -1,0 +1,74 @@
+/* V13 // FINAL_IDENTITY [EQ_PRISM] */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Fira+Code:wght@500&display=swap');
+
+:root {
+    /* EQ_PRISM PALETTE - DARK (DEFAULT) */
+    --c-1: #FFC300; /* Sun */
+    --c-2: #FF5733; /* Heat */
+    --c-3: #C70039; /* Blood */
+    --c-4: #900C3F; /* Void */
+    --c-5: #581845; /* Deep */
+    
+    /* THEME: DARK */
+    --bg-primary: #050505;
+    --text-primary: #ffffff;
+    --glass-bg: rgba(15, 15, 15, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --mono-accent: #00FF00;
+    
+    /* TYPOGRAPHY */
+    --font-heading: 'Inter', sans-serif;
+    --font-mono: 'Fira Code', monospace;
+
+    /* ANIMATION */
+    --theme-transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* LIGHT THEME (LAB VARIANT) OVERRIDES */
+.light-theme {
+    --c-1: #DDA600; 
+    --c-2: #D94420;
+    --c-3: #C70039; 
+    --c-4: #900C3F; 
+    --c-5: #581845; 
+    
+    --bg-primary: #F0F2F5;
+    --text-primary: #111111;
+    --glass-bg: rgba(255, 255, 255, 0.75);
+    --glass-border: rgba(0, 0, 0, 0.08);
+    --mono-accent: #111111;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-heading);
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    
+    /* SMOOTH THEME TRANSITION */
+    transition: background-color var(--theme-transition),
+                color var(--theme-transition);
+}
+
+/* FULL-SCREEN SUPPRESSION LOGIC */
+:fullscreen .branding-element,
+:-webkit-full-screen .branding-element {
+    display: none !important;
+}
+
+/* UTILITY CLASSES */
+.text-mono { font-family: var(--font-mono); font-weight: 500; transition: color var(--theme-transition); }
+.text-prism-1 { color: var(--c-1); transition: color var(--theme-transition); }
+.text-prism-2 { color: var(--c-2); transition: color var(--theme-transition); }
+.text-prism-3 { color: var(--c-3); transition: color var(--theme-transition); }
+.text-prism-4 { color: var(--c-4); transition: color var(--theme-transition); }
+.text-prism-5 { color: var(--c-5); transition: color var(--theme-transition); }
+
+/* GLOBALS FOR TRANSITIONS */
+* {
+    transition: border-color var(--theme-transition),
+                box-shadow var(--theme-transition);
+}

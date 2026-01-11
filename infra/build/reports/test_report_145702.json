@@ -1,0 +1,20 @@
+{
+    "summary": "Partial Execution",
+    "detailed": [
+        {
+            "module": "backend",
+            "status": "PASSED",
+            "logs": "Success"
+        },
+        {
+            "module": "middleware",
+            "status": "FAILED",
+            "logs": "'jest' is not recognized as an internal or external command,\noperable program or batch file.\n"
+        },
+        {
+            "module": "frontend",
+            "status": "PASSED",
+            "logs": "Success"
+        }
+    ]
+}

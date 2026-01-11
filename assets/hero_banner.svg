@@ -1,0 +1,37 @@
+<svg width="800" height="200" viewBox="0 0 800 200"
+    xmlns="http://www.w3.org/2000/svg">
+    <title>V13 EQ_PRISM Hero</title>
+    <desc>V13 Horizontal Lockup with EQ Prism Logo</desc>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Fira+Code:wght@500&display=swap');
+        :root {
+            --c-1: #FFC300;
+            --c-2: #FF5733;
+            --c-3: #C70039;
+            --c-4: #900C3F;
+            --c-5: #581845;
+            --bg-dark: #050505;
+        }
+    </style>
+
+    <!-- Background -->
+    <rect width="800" height="200" fill="#050505"/>
+
+    <!-- Centered Content Group -->
+    <g transform="translate(200, 50)">
+        <!-- EQ Logo Part -->
+        <g transform="scale(1.0)">
+            <rect x="15" y="10" width="12" height="40" rx="4" fill="#FFC300" />
+            <rect x="33" y="10" width="12" height="65" rx="4" fill="#FF5733" />
+            <rect x="51" y="10" width="12" height="90" rx="4" fill="#C70039" />
+            <rect x="69" y="10" width="12" height="65" rx="4" fill="#900C3F" />
+            <rect x="87" y="10" width="12" height="40" rx="4" fill="#581845" />
+        </g>
+
+        <!-- Text Part -->
+        <text x="130" y="80" font-family="'Inter', sans-serif" font-weight="900" font-size="80" letter-spacing="-4" fill="#ffffff">V13</text>
+
+        <!-- Subtitle -->
+        <text x="135" y="105" font-family="'Fira Code', monospace" font-weight="500" font-size="14" letter-spacing="4" fill="#666666">FINAL_IDENTITY</text>
+    </g>
+</svg>
