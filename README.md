@@ -48,7 +48,7 @@ V13 abandons "Cyberpunk" clichés in favor of **EQ_PRISM**: a design language gr
 <br />
 
 <div align="center">
-  <img src="assets/section_divider.svg" width="100%">
+  <img src="assets/section_divider.svg?v=final" width="100%">
 </div>
 
 # CORE FEATURES
@@ -67,13 +67,13 @@ V13 abandons "Cyberpunk" clichés in favor of **EQ_PRISM**: a design language gr
 The system follows a strict **Command-Query Separation (CQS)** pattern disguised as an event loop. The Backend *pushes* state; the Frontend *renders* it.
 
 <div align="center">
-  <img src="assets/architecture_diagram.svg" width="90%" alt="System Architecture Diagram">
+  <img src="assets/architecture_diagram.svg?v=final" width="90%" alt="System Architecture Diagram">
 </div>
 
 ### THE OVERMIND LOOP
 
 <div align="center">
-  <img src="assets/data_flow_diagram.svg" width="80%" alt="Data Flow Sequence Diagram">
+  <img src="assets/data_flow_diagram.svg?v=final" width="80%" alt="Data Flow Sequence Diagram">
 </div>
 
 1.  **Capture**: `cpal` grabs the Loopback/Stereo Mix stream.
