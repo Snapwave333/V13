@@ -1,0 +1,18 @@
+<svg viewBox="0 0 100 100" width="200" height="200"
+    xmlns="http://www.w3.org/2000/svg">
+    <title>V13 Primary Identity</title>
+    <style>
+        :root {
+            --c-1: #FFC300;
+            --c-2: #FF5733;
+            --c-3: #C70039;
+            --c-4: #900C3F;
+            --c-5: #581845;
+        }
+    </style>
+    <rect x="15" y="10" width="12" height="40" rx="4" fill="#FFC300" />
+    <rect x="33" y="10" width="12" height="65" rx="4" fill="#FF5733" />
+    <rect x="51" y="10" width="12" height="90" rx="4" fill="#C70039" />
+    <rect x="69" y="10" width="12" height="65" rx="4" fill="#900C3F" />
+    <rect x="87" y="10" width="12" height="40" rx="4" fill="#581845" />
+</svg>

@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="assets/hero_banner.png" alt="V13 EQ_PRISM IDENTITY" width="100%">
+  <img src="assets/hero_banner.svg" alt="V13 EQ_PRISM IDENTITY" width="100%">
 </div>
 
 <br />
 
 <div align="center">
-  <img src="assets/section_divider.png" width="100%">
+  <img src="assets/section_divider.svg" width="100%">
 </div>
 
 <br />
@@ -48,7 +48,7 @@ V13 abandons "Cyberpunk" clichés in favor of **EQ_PRISM**: a design language gr
 <br />
 
 <div align="center">
-  <img src="assets/section_divider.png" width="100%">
+  <img src="assets/section_divider.svg" width="100%">
 </div>
 
 # CORE FEATURES
@@ -142,7 +142,7 @@ npm install && npm start
 <br />
 
 <div align="center">
-  <img src="assets/section_divider.png" width="100%">
+  <img src="assets/section_divider.svg" width="100%">
 </div>
 
 # CONTRIBUTING

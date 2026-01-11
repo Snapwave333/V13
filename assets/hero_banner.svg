@@ -1,37 +1,27 @@
-<svg width="800" height="200" viewBox="0 0 800 200"
+<svg viewBox="0 0 800 300"
     xmlns="http://www.w3.org/2000/svg">
-    <title>V13 EQ_PRISM Hero</title>
-    <desc>V13 Horizontal Lockup with EQ Prism Logo</desc>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Fira+Code:wght@500&display=swap');
-        :root {
-            --c-1: #FFC300;
-            --c-2: #FF5733;
-            --c-3: #C70039;
-            --c-4: #900C3F;
-            --c-5: #581845;
-            --bg-dark: #050505;
-        }
-    </style>
+    <title>V13 Hero Banner</title>
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&amp;family=Fira+Code:wght@500&amp;display=swap');
+            .text { font-family: 'Inter', sans-serif; font-weight: 900; fill: #FFFFFF; }
+            .sub { font-family: 'Fira Code', monospace; font-weight: 500; fill: #666666; letter-spacing: 4px; }
+        </style>
+    </defs>
 
     <!-- Background -->
-    <rect width="800" height="200" fill="#050505"/>
+    <rect width="800" height="300" fill="#050505" />
 
-    <!-- Centered Content Group -->
-    <g transform="translate(200, 50)">
-        <!-- EQ Logo Part -->
-        <g transform="scale(1.0)">
-            <rect x="15" y="10" width="12" height="40" rx="4" fill="#FFC300" />
-            <rect x="33" y="10" width="12" height="65" rx="4" fill="#FF5733" />
-            <rect x="51" y="10" width="12" height="90" rx="4" fill="#C70039" />
-            <rect x="69" y="10" width="12" height="65" rx="4" fill="#900C3F" />
-            <rect x="87" y="10" width="12" height="40" rx="4" fill="#581845" />
-        </g>
-
-        <!-- Text Part -->
-        <text x="130" y="80" font-family="'Inter', sans-serif" font-weight="900" font-size="80" letter-spacing="-4" fill="#ffffff">V13</text>
-
-        <!-- Subtitle -->
-        <text x="135" y="105" font-family="'Fira Code', monospace" font-weight="500" font-size="14" letter-spacing="4" fill="#666666">FINAL_IDENTITY</text>
+    <!-- EQ Graphic -->
+    <g transform="translate(100, 75)">
+        <rect x="0" y="60" width="30" height="90" rx="4" fill="#FFC300" />
+        <rect x="40" y="10" width="30" height="140" rx="4" fill="#FF5733" />
+        <rect x="80" y="-40" width="30" height="190" rx="4" fill="#C70039" />
+        <rect x="120" y="10" width="30" height="140" rx="4" fill="#900C3F" />
+        <rect x="160" y="60" width="30" height="90" rx="4" fill="#581845" />
     </g>
+
+    <!-- Typography -->
+    <text x="240" y="180" font-size="160" class="text">V13</text>
+    <text x="250" y="215" font-size="14" class="sub">FINAL_IDENTITY</text>
 </svg>
