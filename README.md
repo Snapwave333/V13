@@ -13,7 +13,7 @@
 <!-- TOC -->
 <div align="center">
 
-| [⚡ Features](#-core-features) | [🛠️ Stack](#-tech-stack) | [🏗️ Architecture](#-architecture) | [🚀 Deployment](#-deployment) | [🎮 Controls](#-controls) |
+| [⚡ Features](#core-features) | [🛠️ Stack](#tech-stack) | [🏗️ Architecture](#architecture) | [🚀 Deployment](#deployment) | [🎮 Controls](#controls) |
 | :---: | :---: | :---: | :---: | :---: |
 
 </div>
@@ -41,7 +41,7 @@ V13 abandons "Cyberpunk" clichés in favor of **EQ_PRISM**: a design language gr
 
 ---
 
-## 🛠️ TECH STACK
+## <a id="tech-stack"></a>🛠️ TECH STACK
 
 <div align="center">
   
@@ -60,7 +60,7 @@ V13 abandons "Cyberpunk" clichés in favor of **EQ_PRISM**: a design language gr
   <img src="assets/section_divider.svg?v=final" width="100%" alt="divider">
 </div>
 
-## ⚡ CORE FEATURES
+## <a id="core-features"></a>⚡ CORE FEATURES
 
 * **📊 Real-Time FFT Analysis**: 60Hz extracted features (Energy, Flux, Centroid, Rolloff).
 * **🤖 Autonomous Vibe Detection**: "Overmind" state machine detects *Chill*, *Build*, and *Chaos* states.
@@ -71,7 +71,7 @@ V13 abandons "Cyberpunk" clichés in favor of **EQ_PRISM**: a design language gr
 
 ---
 
-## 🏗️ ARCHITECTURE
+## <a id="architecture"></a>🏗️ ARCHITECTURE
 
 The system follows a strict **Command-Query Separation (CQS)** pattern disguised as an event loop. The Backend *pushes* state; the Frontend *renders* it.
 
@@ -112,7 +112,7 @@ The system follows a strict **Command-Query Separation (CQS)** pattern disguised
 
 ---
 
-## 🚀 DEPLOYMENT
+## <a id="deployment"></a>🚀 DEPLOYMENT
 
 ### 📋 PREREQUISITES
 
@@ -147,7 +147,7 @@ npm install && npm start
 
 ---
 
-## 🎮 CONTROLS
+## <a id="controls"></a>🎮 CONTROLS
 
 | INPUT | ACTION | CONTEXT |
 | :--- | :--- | :--- |
