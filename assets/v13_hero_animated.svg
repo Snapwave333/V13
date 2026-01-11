@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 150"
+    xmlns="http://www.w3.org/2000/svg">
+    <title>V13 Hero Animated</title>
+    <defs>
+        <style>
+            .text { font-family: sans-serif; font-weight: 900; fill: #FFFFFF; }
+            .sub { font-family: monospace; font-weight: 500; fill: #666666; letter-spacing: 4px; }
+        </style>
+    </defs>
+
+    <!-- Background -->
+    <rect width="800" height="150" fill="#050505" />
+
+    <!-- EQ Graphic -->
+    <g transform="translate(140, 25)">
+        <!-- Bar 1: Sun -->
+        <rect x="0" y="35" width="20" height="60" rx="4" fill="#FFC300">
+            <animate attributeName="height" values="60;90;40;70;60" dur="1.2s" repeatCount="indefinite" />
+            <animate attributeName="y" values="35;20;45;30;35" dur="1.2s" repeatCount="indefinite" />
+        </rect>
+        <!-- Bar 2: Orange -->
+        <rect x="30" y="20" width="20" height="90" rx="4" fill="#FF5733">
+            <animate attributeName="height" values="90;50;100;70;90" dur="0.9s" repeatCount="indefinite" />
+            <animate attributeName="y" values="20;40;15;30;20" dur="0.9s" repeatCount="indefinite" />
+        </rect>
+        <!-- Bar 3: Red (Center) -->
+        <rect x="60" y="10" width="20" height="110" rx="4" fill="#C70039">
+            <animate attributeName="height" values="110;80;120;60;110" dur="1.5s" repeatCount="indefinite" />
+            <animate attributeName="y" values="10;25;5;35;10" dur="1.5s" repeatCount="indefinite" />
+        </rect>
+        <!-- Bar 4: Dark Red -->
+        <rect x="90" y="20" width="20" height="90" rx="4" fill="#900C3F">
+            <animate attributeName="height" values="90;110;60;100;90" dur="1.1s" repeatCount="indefinite" />
+            <animate attributeName="y" values="20;10;35;15;20" dur="1.1s" repeatCount="indefinite" />
+        </rect>
+        <!-- Bar 5: Purple -->
+        <rect x="120" y="35" width="20" height="60" rx="4" fill="#581845">
+            <animate attributeName="height" values="60;40;80;30;60" dur="1.3s" repeatCount="indefinite" />
+            <animate attributeName="y" values="35;45;25;50;35" dur="1.3s" repeatCount="indefinite" />
+        </rect>
+    </g>
+
+    <!-- Typography -->
+    <text x="310" y="110" font-size="100" class="text">V13</text>
+
+    <!-- Subtitle (Optional, but adds detail to the wider format) -->
+    <text x="520" y="100" font-size="14" class="sub">AUDIO_REACTIVE</text>
+</svg>
