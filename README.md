@@ -72,6 +72,10 @@ The system follows a strict **Command-Query Separation (CQS)** pattern disguised
 
 ### THE OVERMIND LOOP
 
+<div align="center">
+  <img src="assets/data_flow_diagram.svg" width="80%" alt="Data Flow Sequence Diagram">
+</div>
+
 1.  **Capture**: `cpal` grabs the Loopback/Stereo Mix stream.
 2.  **Analyze**: `rustfft` computes the frequency spectrum. Custom algorithms extract "Vibe Metrics".
 3.  **Direct**: `LlmDirector` occasionally polls an LLM for a "Vibe Shift" (e.g., "Make it look like a burning sun").
