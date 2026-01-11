@@ -161,4 +161,6 @@ Feature requests must demonstrate significant value to **Latency Reduction** or 
 
 ---
 
-made with love by SNAPWAVE333/LUSHAPPS
+<div align="center">
+  made with love by SNAPWAVE333/LUSHAPPS
+</div>

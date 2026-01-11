@@ -3,9 +3,8 @@
     <title>V13 Data Flow Diagram</title>
     <defs>
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&amp;display=swap');
-            .label { font-family: 'Fira Code', monospace; font-size: 14px; fill: #FFFFFF; text-anchor: middle; }
-            .msg { font-family: 'Fira Code', monospace; font-size: 12px; fill: #AAAAAA; text-anchor: middle; }
+            .label { font-family: monospace; font-size: 14px; fill: #FFFFFF; text-anchor: middle; }
+            .msg { font-family: monospace; font-size: 12px; fill: #AAAAAA; text-anchor: middle; }
             .box { fill: none; stroke-width: 2; }
             .line { stroke: #333333; stroke-width: 1; stroke-dasharray: 4; }
             .arrow { stroke-width: 2; marker-end: url(#arrowhead); }
