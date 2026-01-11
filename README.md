@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/hero_banner.svg" alt="V13 EQ_PRISM IDENTITY" width="100%">
+  <img src="assets/hero_banner.svg?v=final" alt="V13 EQ_PRISM IDENTITY" width="100%">
 </div>
 
 <br />
