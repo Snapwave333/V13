@@ -1,0 +1,68 @@
+<svg width="900" height="450" viewBox="0 0 900 450"
+    xmlns="http://www.w3.org/2000/svg">
+    <title>V13 Architecture EQ_PRISM</title>
+
+    <!-- Background -->
+    <rect width="900" height="450" fill="#050505" />
+
+    <!-- Palette Defs -->
+    <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+        </marker>
+    </defs>
+
+    <!-- 1. BACKEND (Sun/Heat) -->
+    <g transform="translate(50, 50)">
+        <rect x="0" y="0" width="250" height="350" rx="8" fill="#0f0f0f" stroke="#FFC300" stroke-width="2" />
+        <text x="20" y="30" font-family="monospace" font-size="12" fill="#FFC300" letter-spacing="2">LAYER: BACKEND</text>
+
+        <!-- Audio Engine -->
+        <rect x="25" y="60" width="200" height="60" rx="4" fill="#1a1a1a" stroke="#FF5733" stroke-width="1" />
+        <text x="125" y="85" font-family="sans-serif" font-weight="bold" font-size="14" fill="#fff" text-anchor="middle">Audio Engine</text>
+        <text x="125" y="105" font-family="monospace" font-size="10" fill="#888" text-anchor="middle">cpal / rustfft</text>
+
+        <!-- Overmind -->
+        <rect x="25" y="140" width="200" height="60" rx="4" fill="#1a1a1a" stroke="#C70039" stroke-width="1" />
+        <text x="125" y="165" font-family="sans-serif" font-weight="bold" font-size="14" fill="#fff" text-anchor="middle">Overmind</text>
+        <text x="125" y="185" font-family="monospace" font-size="10" fill="#888" text-anchor="middle">State Machine</text>
+
+        <!-- WS Server -->
+        <rect x="25" y="220" width="200" height="60" rx="4" fill="#1a1a1a" stroke="#900C3F" stroke-width="1" />
+        <text x="125" y="245" font-family="sans-serif" font-weight="bold" font-size="14" fill="#fff" text-anchor="middle">WS Server</text>
+        <text x="125" y="265" font-family="monospace" font-size="10" fill="#888" text-anchor="middle">Axum / Tokio</text>
+    </g>
+
+    <!-- 2. AI (Deep) -->
+    <g transform="translate(350, 50)">
+        <rect x="0" y="0" width="200" height="150" rx="8" fill="#0f0f0f" stroke="#581845" stroke-width="2" />
+        <text x="20" y="30" font-family="monospace" font-size="12" fill="#581845" letter-spacing="2">LAYER: AI</text>
+
+        <rect x="25" y="60" width="150" height="60" rx="4" fill="#1a1a1a" stroke="#581845" stroke-width="1" stroke-dasharray="4 2"/>
+        <text x="100" y="85" font-family="sans-serif" font-weight="bold" font-size="14" fill="#fff" text-anchor="middle">LlmDirector</text>
+        <text x="100" y="105" font-family="monospace" font-size="10" fill="#888" text-anchor="middle">Ollama / Local</text>
+    </g>
+
+    <!-- 3. FRONTEND (Void/Deep) -->
+    <g transform="translate(600, 50)">
+        <rect x="0" y="0" width="250" height="350" rx="8" fill="#0f0f0f" stroke="#FFFFFF" stroke-width="2" />
+        <text x="20" y="30" font-family="monospace" font-size="12" fill="#FFFFFF" letter-spacing="2">LAYER: FRONTEND</text>
+
+        <!-- WebGL -->
+        <rect x="25" y="60" width="200" height="140" rx="4" fill="#1a1a1a" stroke="#FFFFFF" stroke-width="1" />
+        <text x="125" y="120" font-family="sans-serif" font-weight="bold" font-size="14" fill="#fff" text-anchor="middle">WebGL Renderer</text>
+        <text x="125" y="140" font-family="monospace" font-size="10" fill="#888" text-anchor="middle">Raymarching / GLSL</text>
+
+        <!-- HUD -->
+        <rect x="25" y="220" width="200" height="60" rx="4" fill="#1a1a1a" stroke="#FFFFFF" stroke-width="1" />
+        <text x="125" y="245" font-family="sans-serif" font-weight="bold" font-size="14" fill="#fff" text-anchor="middle">Telemetry HUD</text>
+        <text x="125" y="265" font-family="monospace" font-size="10" fill="#888" text-anchor="middle">Angular 19</text>
+    </g>
+
+    <!-- Connectors -->
+    <path d="M 300 250 L 600 250" stroke="#FFC300" stroke-width="2" marker-end="url(#arrow)" />
+    <text x="450" y="240" font-family="monospace" font-size="10" fill="#FFC300" text-anchor="middle">60Hz STATE BROADCAST</text>
+
+    <path d="M 275 140 L 350 140" stroke="#581845" stroke-width="2" marker-end="url(#arrow)" />
+    <path d="M 375 125 L 275 170" stroke="#581845" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="4 4" />
+</svg>

@@ -67,7 +67,7 @@ V13 abandons "Cyberpunk" clichés in favor of **EQ_PRISM**: a design language gr
 The system follows a strict **Command-Query Separation (CQS)** pattern disguised as an event loop. The Backend *pushes* state; the Frontend *renders* it.
 
 <div align="center">
-  <img src="assets/architecture_diagram.svg?v=final" width="90%" alt="System Architecture Diagram">
+  <img src="assets/v13_arch_overview.svg?v=fixed" width="90%" alt="System Architecture Diagram">
 </div>
 
 ### THE OVERMIND LOOP
