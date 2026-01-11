@@ -39,9 +39,9 @@ V13 abandons "Cyberpunk" clichés in favor of **EQ_PRISM**: a design language gr
 | **CORE BACKEND** | **FRONTEND RENDERER** | **MIDDLEWARE** | **AI / AGENT** |
 | :--- | :--- | :--- | :--- |
 | ![Rust](https://img.shields.io/badge/Rust-1.80+-000000?style=flat-square&logo=rust&logoColor=white) | ![Angular](https://img.shields.io/badge/Angular-19-DD0031?style=flat-square&logo=angular&logoColor=white) | ![Node](https://img.shields.io/badge/Node.js-20-339933?style=flat-square&logo=nodedotjs&logoColor=white) | ![Ollama](https://img.shields.io/badge/Ollama-Local-000000?style=flat-square&logo=ollama&logoColor=white) |
-| **cpal** (Audio Input) | **WebGL2** (Raymarching) | **Express** (API) | **Llama 3** (Creativity) |
-| **rustfft** (Analysis) | **GLSL** (Shaders) | **JWT** (Auth) | **Mistral** (Logic) |
-| **Axum** (WebSockets) | **hTML5** (HUD) | **PM2** (Process) | |
+| ![cpal](https://img.shields.io/badge/cpal-Audio_Input-FFC300?style=flat-square&logo=rust&logoColor=black) | ![WebGL2](https://img.shields.io/badge/WebGL2-Raymarching-581845?style=flat-square&logo=webgl&logoColor=white) | ![Express](https://img.shields.io/badge/Express-API-000000?style=flat-square&logo=express&logoColor=white) | ![Llama 3](https://img.shields.io/badge/Llama_3-Creativity-0467DF?style=flat-square&logo=meta&logoColor=white) |
+| ![rustfft](https://img.shields.io/badge/rustfft-Analysis-FF5733?style=flat-square&logo=rust&logoColor=white) | ![GLSL](https://img.shields.io/badge/GLSL-Shaders-900C3F?style=flat-square&logo=opengl&logoColor=white) | ![JWT](https://img.shields.io/badge/JWT-Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white) | ![Mistral](https://img.shields.io/badge/Mistral-Logic-F5A962?style=flat-square&logo=huggingface&logoColor=white) |
+| ![Axum](https://img.shields.io/badge/Axum-WebSockets-C70039?style=flat-square&logo=rust&logoColor=white) | ![HTML5](https://img.shields.io/badge/HTML5-HUD-E34F26?style=flat-square&logo=html5&logoColor=white) | ![PM2](https://img.shields.io/badge/PM2-Process-2B037A?style=flat-square&logo=pm2&logoColor=white) | |
 
 </div>
 
